@@ -1,37 +1,37 @@
 # =============================================================
 # Portada
 # =============================================================
-# Nombre: Carlos Armando Muñoz Bustamante
-# Matrícula: 2630017
-# Grupo: IM-1-3
+# Name: Carlos Armando Muñoz Bustamante
+# Student ID: 2630017
+# Group: IM-1-3
 
 # =============================================================
 # Resúmen Ejecutivo
 # =============================================================
-# Un string en Python son tipos de datos compuestos por secuencias
-# de caracteres que representan texto. Son de tipo str y es inmutable.
-# Esto quiere decir que no se pueden modificar directamente despues de crearlo
-# Sus operaciones básicas son: concatenar textos (+), repetir (*),
-# indicar el número de elementos de un objeto (len()), reemplazar texto (replace()),
-# buscar texto (find()), etc.
-# Es importante validar y normalizar el texto de entrada para evitar escribir
-# espacios extra, mezclar mayúsculas y minúsculas, o caracteres especiales 
-# que puedan afectar el procesamiento del texto.
-# Este documento cubrirá seis problemas: formateador de nombres, 
-# validador de correos, detector de palíndromos, estadísticas de palabras, 
-# clasificador de contraseñas y formateador de etiquetas. 
-# Cada uno incluye descripción, entradas,
-# salidas, validaciones, tres casos de prueba y el código.
+# A string in Python is a data type composed of sequences
+# of characters that represent text. It is of type str and is immutable.
+# This means that it cannot be modified directly after it is created.
+# Its basic operations include: concatenating text (+), repeating (*),
+# getting the number of elements in an object (len()), replacing text (replace()),
+# searching for text (find()), etc.
+# It is important to validate and normalize input text to avoid extra spaces,
+# mixing uppercase and lowercase letters, or special characters
+# that could affect text processing.
+# This document will cover six problems: name formatter,
+# email validator, palindrome detector, word statistics,
+# password classifier, and label formatter.
+# Each one includes a description, inputs,
+# outputs, validations, three test cases, and the code.
 
 # =============================================================
 # Principios y buenas prácticas
 # =============================================================
-# Los strings son inmutables: cualquier cambio genera una nueva cadena.
-# Es buena práctica normalizar entrada con strip() y lower() antes de compararla.
-# Evitar "números mágicos" en índices; documentar qué extrae cada slice.
-# Usar métodos de string en lugar de reescribir lógica básica.
-# Diseñar validaciones claras: primero que no esté vacío, luego el formato.
-# Escribir código legible: nombres de variables claros y mensajes de error entendibles.
+# Strings are immutable: any change creates a new string.
+# It is good practice to normalize input using strip() and lower() before comparing it.
+# Avoid "magic numbers" in indexes; document what each slice extracts.
+# Use string methods instead of rewriting basic logic.
+# Design clear validations: first check that the input is not empty, then check the format.
+# Write readable code: use clear variable names and understandable error messages.
 
 # =============================================================
 # Problem 1: Full name formatter (name + initials)
